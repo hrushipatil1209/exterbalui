@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-Frame-Options" content="allow">
+  <title>External Download Examples</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+    <body ng-app="myApp" ng-cloak layout="column">
+        <md-toolbar class="syngotoolbar" layout-align="center center">
+            <h3>External Download Examples</h3>
+        </md-toolbar>
+        <div flex="100" layout="row">
+            <div layout="column" flex="100">
+                
+                <md-card ng-controller="CallBackURL as callBackURL" flex style="background: rgba(0,0,0,0);" layout="column">
+
+                    <md-card-title flex="20">
+                        <md-card-title-text>
+                            <span class="md-headline">External download (with URL callback on return)</span>
+                        </md-card-title-text>
+                    </md-card-title>
+                    <md-card-content flex="70">
+
+                    </md-card-content>
+                    <md-card-actions flex="10" layout="row" layout-align="start center">
+                        <md-button style="background-color:rgba(80, 79, 110, 1);border-radius:0px;">Go</md-button>
+                        <md-button style="background-color:rgba(80, 79, 110, 1);border-radius:0px;" ng-click="callBackURL.exit()">Exit</md-button>
+                    </md-card-actions>
+                </md-card>
+                
+                <md-card flex style="background: rgba(0,0,0,0);" layout="column">
+
+                    <md-card-title flex="20">
+                        <md-card-title-text>
+                            <span class="md-headline">External download (with Javascript callback)</span>
+                        </md-card-title-text>
+                    </md-card-title>
+                    <md-card-content flex="70">
+
+                    </md-card-content>
+                    <md-card-actions flex="10" layout="row" layout-align="start center">
+                        <md-button style="background-color:rgba(80, 79, 110, 1);border-radius:0px;">Go</md-button>
+                        <md-button style="background-color:rgba(80, 79, 110, 1);border-radius:0px;">Exit</md-button> 
+                    </md-card-actions>
+                </md-card>
+
+            </div>
+        </div>
+    
+
+
+<!--
+Copyright 2016 Google Inc. All Rights Reserved. 
+Use of this source code is governed by an MIT-style license that can be in foundin the LICENSE file at http://material.angularjs.org/license.
+-->
+  <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

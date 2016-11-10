@@ -1,0 +1,15 @@
+body {
+    background-color: rgba(29, 29, 46, 1)!important;
+    font-family: Arial;
+    font-size: 15px;
+    color: #dcdcf0;
+   
+}
+div {
+   border-bottom: 1px solid #6e7b9f;
+}
+
+.syngotoolbar{
+    background-color:rgba(29, 29, 46, 1)!important;
+      border-bottom: 1px solid #6e7b9f;
+}
