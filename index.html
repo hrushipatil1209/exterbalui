@@ -36,7 +36,7 @@
                     </md-card-actions>
                 </md-card>
                 
-                <md-card flex style="background: rgba(0,0,0,0);" layout="column">
+                <md-card  ng-controller="CallBackJS as callBackjs"  flex style="background: rgba(0,0,0,0);" layout="column">
 
                     <md-card-title flex="20">
                         <md-card-title-text>
@@ -48,7 +48,7 @@
                     </md-card-content>
                     <md-card-actions flex="10" layout="row" layout-align="start center">
                         <md-button style="background-color:rgba(80, 79, 110, 1);border-radius:0px;">Go</md-button>
-                        <md-button style="background-color:rgba(80, 79, 110, 1);border-radius:0px;">Exit</md-button> 
+                        <md-button style="background-color:rgba(80, 79, 110, 1);border-radius:0px;" ng-click="callBackjs.exit()">Exit</md-button> 
                     </md-card-actions>
                 </md-card>
 
