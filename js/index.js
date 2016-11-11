@@ -3,6 +3,6 @@ angular.module('myApp',['ngMaterial']);
 angular.module('myApp').controller('CallBackURL', function() {
     var callCackURL = this;
     callCackURL.exit = function () {
-        window.location="https://www.google.com"
+        window.location="https://hrushipatil1209.github.io/exterbalui/return.html"
     }
 });
